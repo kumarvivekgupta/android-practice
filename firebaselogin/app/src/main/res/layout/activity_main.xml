@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dubai_uae_buildings_skyscrapers_night_96720_3840x2400"
+    android:orientation="vertical"
+    tools:context="com.example.vivek.firebaselogin.MainActivity"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@android:color/holo_red_dark"
+        android:inputType="textEmailAddress"
+        android:hint="Email address"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@android:color/holo_red_dark"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:visibility="visible"
+        android:hint="password"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:padding="34dp"
+android:textColor="white"
+        android:paddingBottom="34dp"
+        android:text="Login"
+        android:visibility="visible"
+        tools:text="Login"
+        android:layout_weight="0.06" />
+</LinearLayout>

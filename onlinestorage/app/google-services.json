@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "358839010895",
+    "firebase_url": "https://onlinestorage-bca96.firebaseio.com",
+    "project_id": "onlinestorage-bca96",
+    "storage_bucket": "onlinestorage-bca96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358839010895:android:13cc3bfe46dca508",
+        "android_client_info": {
+          "package_name": "com.example.vivek.onlinestorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358839010895-u3aijmqgjodkvunglme78dod5fgai81u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vivek.onlinestorage",
+            "certificate_hash": "66ac40a6e541b07a167cf048e3f133a317cfb601"
+          }
+        },
+        {
+          "client_id": "358839010895-pg43ukeaj6s2o7kqm3ql562e71vtbhbi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNnqqbsHVK3AnCq4hWdYRr0AyY9JXp6gE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358839010895-pg43ukeaj6s2o7kqm3ql562e71vtbhbi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
