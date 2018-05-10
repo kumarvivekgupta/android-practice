@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "855801646755",
+    "firebase_url": "https://doubtclearer-a5034.firebaseio.com",
+    "project_id": "doubtclearer-a5034",
+    "storage_bucket": "doubtclearer-a5034.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855801646755:android:4146a8e704f947e7",
+        "android_client_info": {
+          "package_name": "com.example.vivek.doubtclearer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855801646755-3pc1ii0m0pq88ap3s3gtood2ne0rd609.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vivek.doubtclearer",
+            "certificate_hash": "66ac40a6e541b07a167cf048e3f133a317cfb601"
+          }
+        },
+        {
+          "client_id": "855801646755-juo88egi2329relh2lu4h4hnorurgdhe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc846J3Gty4nBkeZ_FE-0CUw7N83G5clw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855801646755-juo88egi2329relh2lu4h4hnorurgdhe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="120dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/messageshape">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="Vivek kumar"
+        android:textColor="@color/colorPrimaryDark"
+        android:padding="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="3dp"
+        android:id="@+id/username"
+        android:background="@drawable/messageshape"
+        />
+
+    <TextView
+        android:id="@+id/messageText"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="29dp"
+        android:text="Hello Doubt Clearer"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+        android:textStyle="normal" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9:15"
+        android:textSize="20dp"
+        android:layout_marginLeft="4dp"
+        android:id="@+id/usertime"
+        />
+
+</LinearLayout>

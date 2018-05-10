@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-<item android:title="English"
-    android:id="@+id/eng"
-    android:icon="@color/colorAccent"></item>
+    <item
+        android:id="@+id/eng"
+        android:icon="@color/colorAccent"
+        android:title="English"></item>
 
-    <item android:title="Spanish"
+    <item
         android:id="@+id/span"
-        android:icon="@color/colorPrimaryDark"></item>
+        android:icon="@color/colorPrimaryDark"
+        android:title="Spanish"></item>
+    <item
+        android:id="@+id/note"
+        android:icon="@color/colorAccent"
+        android:title="Add Notes"></item>
 </menu>

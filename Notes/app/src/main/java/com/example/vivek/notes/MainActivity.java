@@ -2,6 +2,7 @@ package com.example.vivek.notes;
 
 import android.content.ClipData;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -73,6 +74,9 @@ public class MainActivity extends AppCompatActivity {
 
 
             }
+            case R.id.note: {
+
+            }
             default:
                 return false;
 
@@ -84,6 +88,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
         sharedPreferences = this.getSharedPreferences("com.example.vivek.notes", Context.MODE_PRIVATE);
         sharedPreferences.edit().putString("english", "English").apply();
@@ -103,5 +108,6 @@ public class MainActivity extends AppCompatActivity {
 
         return data;
     }
+
 
 }
